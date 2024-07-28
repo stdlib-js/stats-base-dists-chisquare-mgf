@@ -69,13 +69,18 @@ where `k` is the degrees of freedom.
 ## Usage
 
 ```javascript
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare-mgf@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-chisquare-mgf/tags). For example,
+
+```javascript
 import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare-mgf@v0.2.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare-mgf@v0.2.2-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare-mgf@esm/index.mjs';
 ```
 
 #### mgf( t, k )
@@ -158,7 +163,7 @@ y = mymgf( 0.4 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare-mgf@v0.2.2-esm/index.mjs';
+import mgf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-chisquare-mgf@esm/index.mjs';
 
 var t;
 var k;
