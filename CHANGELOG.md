@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-26)
+## Unreleased (2026-08-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`0d59e49`](https://github.com/stdlib-js/stdlib/commit/0d59e491d662cb131869b6437c113dda340daf24) - **test:** migrate `stats/base/dists/chisquare/mgf` to ULP-based assertions [(#14209)](https://github.com/stdlib-js/stdlib/pull/14209) _(by Athan Reines)_
 -   [`5dee19d`](https://github.com/stdlib-js/stdlib/commit/5dee19dbe000c3512c48f5546478b66a41a2a062) - **bench:** use consistent assertions [(#13229)](https://github.com/stdlib-js/stdlib/pull/13229) _(by Philipp Burckhardt)_
 -   [`dbe4c82`](https://github.com/stdlib-js/stdlib/commit/dbe4c820ea98330253b4054a5bc9b04b2293415b) - **docs:** propagate fixes to sibling packages [(#12677)](https://github.com/stdlib-js/stdlib/pull/12677) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
